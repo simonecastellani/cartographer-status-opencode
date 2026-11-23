@@ -1,0 +1,15 @@
+{
+ "_meta": {
+  "io.modelcontextprotocol/serverInfo": {
+   "name": "cartographer",
+   "version": "v0.29.1"
+  }
+ },
+ "content": [
+  {
+   "text": "{\"behind_commits\": 0, \"branch\": \"main\", \"branch_source\": \"remote\", \"by_status\": {\"active\": 35, \"done\": 45, \"in-progress\": 2, \"open\": 3}, \"by_type\": {\"decision\": 41, \"guide\": 7, \"hub\": 3, \"lifecycle-phase\": 7, \"plan-topic\": 27}, \"capabilities\": {\"mount\": {\"state\": \"discovered\", \"setting\": \"kbs[]\"}, \"secrets\": {\"state\": \"disabled\", \"setting\": \"credentials_dir\"}}, \"conformance\": {\"doctor_suggested\": true, \"findings\": 0, \"fixable\": 0, \"lint_findings\": 0, \"repairable\": {}}, \"connection\": {\"hint\": \"A KB listed in mounted but missing from your instructions' KB list was added after this session started: run cartographer sync (bind it first with cartographer client bind if it is in unbound).\", \"kbs\": [\"kb-functional\", \"kb-shared\", \"kb-technical\"], \"mounted\": [\"kb-functional\", \"kb-personal\", \"kb-sandbox-func\", \"kb-sandbox-tech\", \"kb-shared\", \"kb-technical\"], \"server_started_at\": \"2026-11-20T09:29:26.550561349Z\", \"unbound\": [\"kb-personal\", \"kb-sandbox-func\", \"kb-sandbox-tech\"]}, \"feedback\": {\"destination\": \"github\"}, \"has_remote\": true, \"kb\": \"kb-shared\", \"last_push_at\": \"2026-11-23T10:26:10.985383428Z\", \"last_sync_in_at\": \"2026-11-23T16:28:03.529565689Z\", \"lint_trend\": {\"delta\": 0, \"first\": {\"at\": \"2026-11-18T23:22:29Z\", \"total\": 0, \"by_handler\": {}}, \"last\": {\"at\": \"2026-11-23T16:28:08Z\", \"total\": 0, \"by_handler\": {}}, \"samples\": 4, \"window_days\": 7}, \"open_contradictions\": 0, \"push_last_error\": \"\", \"push_state\": \"clean\", \"read_access\": {\"newest\": \"2026-11-23T14:00:00Z\", \"oldest\": \"2026-11-20T09:31:41Z\", \"since\": \"2026-11-19T09:32:14Z\", \"surfaced\": {\"tracked_concepts\": 34, \"oldest\": \"2026-11-19T09:43:46Z\", \"newest\": \"2026-11-23T13:59:57Z\"}, \"tracked_concepts\": 74}, \"read_cost\": {\"concept_bytes\": {\"p50\": 1321, \"p90\": 3757, \"max\": 22525}, \"neighbourhood_bytes\": {\"p50\": 12327, \"p90\": 34274, \"max\": 91981}}, \"review\": {\"by_kind\": {\"glossary_gap\": 2, \"observation\": 7, \"repeated_fact\": 14, \"template_proposal\": 1}, \"total\": 24}, \"server_version\": \"v0.29.1\", \"stale_count\": 0, \"total\": 85, \"ui_url\": \"http://127.0.0.1:39273/ui/?kb=kb-shared\", \"unpushed_commits\": 0, \"usage\": {\"no_data\": true, \"no_report_since\": \"2026-11-20T09:29:26.550561349Z\", \"scanner_enabled\": false}, \"work\": {\"open_concepts\": 5, \"open_items\": 0, \"stale\": 0}}",
+   "type": "text"
+  }
+ ],
+ "resultType": "complete"
+}

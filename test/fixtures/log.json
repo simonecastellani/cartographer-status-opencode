@@ -1,0 +1,15 @@
+{
+ "_meta": {
+  "io.modelcontextprotocol/serverInfo": {
+   "name": "cartographer",
+   "version": "v0.29.1"
+  }
+ },
+ "content": [
+  {
+   "type": "text",
+   "text": "## 2026-11-20T15:58:38Z\n\nconcept_batch (3 operation(s)):\n- meta-decisions/2026-11-20-pptx-skill-vendored-as-syn-pptx\n- meta-plan/decision-log\n- meta-plan/open-questions\n\n\n## 2026-11-20T11:29:03Z\n\nconcept_batch (3 operation(s)):\n- meta-plan/execution-log\n- meta-plan/open-questions\n- meta-plan/phase-4-onboarding"
+  }
+ ],
+ "resultType": "complete"
+}

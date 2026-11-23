@@ -1,0 +1,15 @@
+{
+ "_meta": {
+  "io.modelcontextprotocol/serverInfo": {
+   "name": "cartographer",
+   "version": "v0.29.1"
+  }
+ },
+ "content": [
+  {
+   "type": "text",
+   "text": "{\"total\":5,\"open_concepts\":5,\"by_status\":{\"in-progress\":2,\"open\":3},\"by_map\":{\"meta-plan\":5},\"open_items\":0,\"entries\":[{\"id\":\"meta-plan/execution-log\",\"title\":\"Execution log\",\"type\":\"plan-topic\",\"map\":\"meta-plan\",\"status\":\"in-progress\",\"open_phase\":true,\"stale\":false,\"items\":[]},{\"id\":\"meta-plan/open-questions\",\"title\":\"Open questions and deferred items\",\"type\":\"plan-topic\",\"map\":\"meta-plan\",\"status\":\"open\",\"open_phase\":true,\"stale\":false,\"items\":[]},{\"id\":\"meta-plan/phase-4-onboarding\",\"title\":\"Phase 4: Onboarding\",\"type\":\"plan-topic\",\"map\":\"meta-plan\",\"status\":\"in-progress\",\"open_phase\":true,\"stale\":false,\"items\":[]}],\"next_offset\":3}"
+  }
+ ],
+ "resultType": "complete"
+}

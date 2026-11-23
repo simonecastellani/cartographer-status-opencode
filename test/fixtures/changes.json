@@ -1,0 +1,15 @@
+{
+ "_meta": {
+  "io.modelcontextprotocol/serverInfo": {
+   "name": "cartographer",
+   "version": "v0.29.1"
+  }
+ },
+ "content": [
+  {
+   "type": "text",
+   "text": "{\"since\":\"2026-11-16T16:28:07Z\",\"head\":\"e1d92e4c8be4afd149880c3873fa0270ecedb388\",\"commit_count\":253,\"changes_by_day\":{\"2026-11-18\":{\"work\":1},\"2026-11-19\":{\"work\":66},\"2026-11-20\":{\"work\":90}},\"concepts\":[{\"id\":\"meta-decisions/2026-11-20-pptx-skill-vendored-as-syn-pptx\",\"change\":\"added\",\"last_at\":\"2026-11-20T15:58:38Z\",\"last_edit_at\":\"2026-11-20T15:58:38Z\",\"added\":true,\"authors\":[\"Alice Example\"],\"ops\":[\"concept_batch\"],\"reasons\":[\"Record decision: pptx skill vendored as syn-pptx\"]},{\"id\":\"meta-plan/decision-log\",\"change\":\"modified\",\"last_at\":\"2026-11-20T15:58:38Z\",\"last_edit_at\":\"2026-11-20T15:58:38Z\",\"added\":true,\"authors\":[\"Alice Example\"],\"ops\":[\"concept_batch\",\"concept_patch: meta-plan/decision-log\"],\"reasons\":[\"Record decision: pptx skill vendored as syn-pptx\",\"Decision on the approval mode of Codex for the colleagues\",\"Phase 3: decisions of 2026-11-20 (Claude Code, sandboxes, Cartographer 0.29.1) and the state pages\",\"Phase 3: consolidation of the project memory (architecture, open questions, phase page, decision on rework, execution log)\",\"Phase 3: decisions on document records and on publication\"]},{\"id\":\"meta-plan/open-questions\",\"change\":\"modified\",\"last_at\":\"2026-11-20T15:58:38Z\",\"last_edit_at\":\"2026-11-20T15:58:38Z\",\"added\":true,\"authors\":[\"Alice Example\"],\"ops\":[\"concept_batch\",\"concept_patch: meta-plan/open-questions\"],\"reasons\":[\"Record decision: pptx skill vendored as syn-pptx\",\"Phase 4: results of the onboarding tests in Docker\",\"Phase 4: state, decision on the Codex function, execution log\",\"Close Phase 3\",\"Decision on the approval mode of Codex for the colleagues\"]}],\"other_changes\":299,\"truncated\":true}"
+  }
+ ],
+ "resultType": "complete"
+}

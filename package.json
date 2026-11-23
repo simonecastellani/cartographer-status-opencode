@@ -1,0 +1,18 @@
+{
+  "name": "opencode-cartographer-status",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only Cartographer status for the OpenCode TUI: KBs bound to the workspace, health, activity and session usage.",
+  "exports": {
+    "./tui": "./tui.tsx"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.6.6",
+    "@opentui/solid": ">=0.6.6",
+    "solid-js": ">=1.9.0"
+  }
+}

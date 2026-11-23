@@ -1,0 +1,68 @@
+[
+ {
+  "id": "msg_code",
+  "time": {
+   "created": 1795450984843,
+   "firstToken": 1795450986688,
+   "streamed": 1795450990455,
+   "completed": 1795450990495
+  },
+  "type": "assistant",
+  "agent": "plan",
+  "model": {
+   "id": "claude-sonnet-5.5",
+   "providerID": "github-copilot",
+   "variant": "high"
+  },
+  "content": [
+   {
+    "type": "tool",
+    "id": "toolu_01Q5LVSu3kWWMgKhSJje8vNE",
+    "name": "execute",
+    "executed": false,
+    "state": {
+     "status": "completed",
+     "input": {
+      "code": "const r = await tools.cartographer.atlas_overview({ kb: \"kb-personal\" }); return typeof r === \"string\" ? r.slice(0,200) : JSON.stringify(r).slice(0,300);"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "---\ntype: Index\ntitle: kb-personal\n---\n# kb-personal\n\nKB initialized.\n\n\n---\n\n## Maps & Journals\n\nNo maps found.\n"
+      }
+     ],
+     "metadata": {
+      "toolCalls": [
+       {
+        "tool": "cartographer.atlas_overview",
+        "status": "completed",
+        "input": {
+         "kb": "kb-personal"
+        }
+       }
+      ],
+      "truncated": false
+     }
+    },
+    "time": {
+     "created": 1795450989862,
+     "ran": 1795450989866,
+     "completed": 1795450989980
+    }
+   }
+  ],
+  "finish": "tool-calls",
+  "rawFinish": "tool_use",
+  "cost": 0.0211518,
+  "tokens": {
+   "input": 2,
+   "output": 279,
+   "reasoning": 338,
+   "cache": {
+    "read": 101053,
+    "write": 1949
+   }
+  },
+  "sessionID": "ses_fixture"
+ }
+]

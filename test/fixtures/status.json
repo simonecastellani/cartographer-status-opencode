@@ -1,0 +1,106 @@
+{
+ "schema_version": "cartographer.status/v1",
+ "server_url": "http://127.0.0.1:39273/mcp",
+ "client_version": "v0.29.1",
+ "server_version": "v0.29.1",
+ "reachable": true,
+ "ready": true,
+ "kbs": [
+  "kb-functional",
+  "kb-personal",
+  "kb-sandbox-func",
+  "kb-sandbox-tech",
+  "kb-shared",
+  "kb-technical"
+ ],
+ "providers": [
+  {
+   "name": "opencode",
+   "installed": true,
+   "detected_by": "binary",
+   "connected": true,
+   "state": "in_sync",
+   "revision": "c9d78a771dd59529eceee5723809106aa692872fd8e70b5e0af0286528414646",
+   "lock_revision": "c9d78a771dd59529eceee5723809106aa692872fd8e70b5e0af0286528414646",
+   "kind_status": "skill 11/11",
+   "materialized_server_version": "v0.29.1",
+   "bound_kbs": [
+    "kb-personal",
+    "kb-shared",
+    "kb-functional",
+    "kb-technical"
+   ],
+   "binding_origin": "explicit",
+   "kb_counts": {
+    "bundle": 11
+   },
+   "workspaces": [
+    {
+     "path": "/home/sc",
+     "kbs": [
+      "kb-personal"
+     ],
+     "state": "ok"
+    },
+    {
+     "path": "/home/sc/syntphony",
+     "kbs": [
+      "kb-shared",
+      "kb-functional",
+      "kb-technical"
+     ],
+     "state": "ok"
+    }
+   ],
+   "instructions_blocks": [
+    {
+     "path": "/home/sc/AGENTS.md",
+     "bytes": 3856,
+     "approx_tokens": 964,
+     "threshold": 16384,
+     "over": false,
+     "largest": [
+      {
+       "kb": "kb-personal",
+       "bytes": 320
+      }
+     ]
+    },
+    {
+     "path": "/home/sc/syntphony/AGENTS.md",
+     "bytes": 13998,
+     "approx_tokens": 3500,
+     "threshold": 16384,
+     "over": false,
+     "largest": [
+      {
+       "kb": "kb-shared",
+       "bytes": 4021
+      },
+      {
+       "kb": "kb-technical",
+       "bytes": 3064
+      },
+      {
+       "kb": "kb-functional",
+       "bytes": 3019
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "artifact_count": 90,
+ "state": "in_sync",
+ "service": {
+  "installed": true,
+  "running": true,
+  "healthy": true,
+  "http_addr": "127.0.0.1:39273",
+  "lifecycle": "loaded",
+  "health_checked": true,
+  "ui_url": "http://127.0.0.1:39273/ui/"
+ },
+ "mount_mode": "routed",
+ "configured_mount_mode": "routed"
+}
